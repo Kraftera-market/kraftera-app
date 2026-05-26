@@ -95,9 +95,7 @@ const BottomMenu = () => {
         </Link>
         <Link
           to="/stake"
-          className={`flex flex-col items-center ${
-            isActive('/stake') ? 'border p-1 rounded-md border-2 border-yellow-300' : ''
-          }`}
+          className="flex flex-col items-center border p-1 rounded-md border-2 border-yellow-300"
         >
           <img src="/braindao-mark-mono.png" className="w-6 h-6 text-gray-800 " />
           <span className="text-sm text-gray-800 pt-1"> IQ AI </span>
